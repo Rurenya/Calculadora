@@ -11,4 +11,7 @@ public class Calculadora {
 		System.out.println("El resultado de la suma es " + (x + y));
 	}
 
+	public void potencia(double x, double y) {
+		System.out.println("El resultado de la potencia es " + Math.pow(x, y));
+	}
 }
