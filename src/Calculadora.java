@@ -4,6 +4,7 @@ public class Calculadora {
 
 		Calculadora calculadora = new Calculadora();
 		calculadora.suma(50.25, 20);
+		calculadora.potencia(4, 3);
 
 	}
 	
