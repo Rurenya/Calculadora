@@ -11,6 +11,10 @@ public class Calculadora {
 	public void suma(double x, double y) {
 		System.out.println("El resultado de la suma es " + (x + y));
 	}
+	
+	public void resta(double x, double y) {
+		System.out.println("El resultado de la resta es " + (x - y));
+	}
 
 	public void potencia(double x, double y) {
 		System.out.println("El resultado de la potencia es " + Math.pow(x, y));
@@ -23,4 +27,6 @@ public class Calculadora {
 	public void degreeToRadians(double degree) {
 		System.out.println(""+ degree + "º son aproximadadamente " + Math.toDegrees(degree) + " radianes.");
 	}
+	
+	
 }
