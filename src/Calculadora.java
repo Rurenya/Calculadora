@@ -19,4 +19,8 @@ public class Calculadora {
 	public void raiz(double n) {
 		System.out.println("La raíz cuadrada de " + n + " es: " + Math.sqrt(n));
 	}
+	
+	public void degreeToRadians(double degree) {
+		System.out.println(""+ degree + "º son aproximadadamente " + Math.toDegrees(degree) + " radianes.");
+	}
 }
